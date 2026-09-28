@@ -147,6 +147,17 @@ export function Footer() {
         <div className="border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-600 order-2 sm:order-1">
             &copy; {year} CW Electronics. {t('allRightsReserved')}
+            <span className="block sm:inline sm:ml-3 mt-1 sm:mt-0 text-center sm:text-left">
+              Designed by{' '}
+              <a
+                href="https://streamline-automations.co.za/"
+                target="_blank"
+                rel="noopener"
+                className="text-slate-500 hover:text-white underline-offset-2 hover:underline transition-colors"
+              >
+                Streamline Automations
+              </a>
+            </span>
           </p>
 
           {/* Payment icons */}
